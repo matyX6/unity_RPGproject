@@ -1,6 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+
+namespace RPG.Core
+{
 
 public class FollowCamera : MonoBehaviour
 {
@@ -11,4 +12,5 @@ public class FollowCamera : MonoBehaviour
     {
         transform.position = target.position;
     }
+}
 }
