@@ -31,7 +31,7 @@ namespace RPG.Control
 
                 if (!GetComponent<Fighter>().CanAttack(target.gameObject)) { continue; }   //if null skip next lines and try again foreach
 
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButton(0))
                 {
                     GetComponent<Fighter>().Attack(target.gameObject); 
                 }
